@@ -1,0 +1,207 @@
+body
+{
+    background-image: url("telephone-fixe.jpg");
+    background-size: cover;
+}
+h1
+{
+    color: white;
+}
+#List ul
+{
+    padding: 0;
+    margin: 0;
+    line-height: 46px;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+#List li
+{   
+    text-transform: capitalize;    
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    position: relative;
+    background-color: none;
+    border-radius: 3px;
+
+}
+
+#List ul li a
+{
+    color: white;
+    display: block;
+    text-decoration: none;
+    width: 160px;
+    height: 40px;
+    border:  10px transparent black;  
+    
+    
+}
+
+#List 
+{
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 30px; 
+
+}
+
+#List ul li a:hover
+{
+    color: goldenrod;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#List ul li:hover ul
+{
+    visibility: visible;
+}
+#List ul ul
+{   
+    
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+}
+
+#center
+{
+    text-align: justify;
+    margin-left: 320px;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+h1 p
+{
+    color: white;
+    padding-top: -30px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#img
+{
+    width: 100%;
+    height: 100%;
+    margin-top: -55px;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.wrapper
+{
+    position: absolute;
+    bottom: -40%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.contact-form
+{
+    max-width: 550px;
+    margin: 100px;
+    background: rgba(0, 0, 0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.13);
+}
+
+.input-fields
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields,
+.msg
+{
+    width: 50%;
+}
+
+.input-fields .input,
+.msg textarea
+{
+    margin: 15px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #fde3c5;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+}
+
+textarea
+{   
+    color: white;
+    background: rgba(0, 0, 0,0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.msg textarea
+{
+    height: 212px;
+}
+
+::-webkit-input-placeholder
+{
+    color: #c5ecfd;    
+}
+
+::-moz-input-placeholder
+{
+    color: #c5ecfd;    
+}
+
+::-ms-input-placeholder
+{
+    color: #c5ecfd;    
+}
+
+
+.btn
+{
+    margin-top: 20px;
+    background: #ff7b00;
+    text-align: center;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.smg a
+{
+    text-decoration: none;
+}
+
+
+
+
+
+

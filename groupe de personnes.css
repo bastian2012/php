@@ -1,0 +1,88 @@
+header{
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+body{
+    background-color: rgb(236, 228, 228);
+    color:black;
+}
+#images{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+#images div{
+    width: 47%;
+
+}
+
+#images div img{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    
+}
+#images img:hover{
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+
+}
+#images img{
+    max-width: 240px;
+    max-height: 240px;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+#ULYSSE img{
+    height: 320px;
+    border-radius: 10px;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 0.7s;
+}
+.marriot{
+    
+    color:white;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+}
+.marriot span{
+    color:goldenrod;
+}
+.hotel{
+    display: flex;
+    position: relative;
+
+}
+.hotel li{
+    list-style: none;
+    font-family: monospace;
+    font-size:15px;
+}
+.hotel a{
+    text-decoration: none;
+    color: goldenrod;
+    margin-left:25px ;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: right;
+
+}
+
+
+
+.presentation{
+    padding: 5em;
+    
+}
